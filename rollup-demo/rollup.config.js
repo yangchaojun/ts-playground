@@ -15,5 +15,6 @@ export default {
       plugins: [terser()]
     }
   ],
+  watch: true,
   plugins: [json()]
 }
